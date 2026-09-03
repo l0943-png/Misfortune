@@ -1,0 +1,14 @@
+Nazwa: Pech vs droga do szkoły
+Podpis: Aleksander Stasiak, Alicja Król, Szymon Bernacki, Mikołaj Bychawski
+Gatunek: Platform
+
+ELEVATOR PITCH
+-Probujesz dostac sie do szkoly unikajac przeszkod i wrogow 
+-masz duzego pecha 
+
+Gameplay loop:
+-Parkour
+-Walki z wrogami (nauczyciel, kontroler biletow itp)
+-Boss fights i mini-boss fights
+-stres mozna zmniejszyc za pomoca Meliska
+-stres zabija (zawał serca) (time limit)
