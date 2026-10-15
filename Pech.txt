@@ -11,4 +11,4 @@ Gameplay loop:
 -Walki z wrogami (nauczyciel, kontroler biletow itp)
 -Boss fights i mini-boss fights
 -stres mozna zmniejszyc za pomoca Meliska
--stres zabija (zawał serca) (time limit)
+-stres zabija (zawał serca) (time limit))
