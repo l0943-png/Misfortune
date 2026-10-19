@@ -4,49 +4,50 @@ using UnityEngine.InputSystem;
 
 public class Player : MonoBehaviour
 {
-    public float gravity = -5f;
-    public float speed = 5f;
+    public float speed_base = 5f;
     public float jumpPower = 10f;
 
     Rigidbody2D rigidbody;
-    bool isGrounded;
-    public Transform groundCheck;
     public Vector2 groundCheckSize;
-
+    public LayerMask groundLayer;
+    public Transform groundCheckPoint;
     float verticalVelocity;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    bool isGrounded;
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
     }
-
-    // Update is called once per frame
     void Update()
     {
-        isGrounded = Physics2D.OverlapBox(groundCheck.position, groundCheckSize, 45f, 7);
-
-        float gravity = -1f;
-
-        Debug.Log(isGrounded);
-        if (isGrounded == false)
-        {
-            gravity = -5f;
-        }
-
-        if (Keyboard.current.spaceKey.isPressed)
-        {
-            gravity = 100f;
-        }
-
-        rigidbody.linearVelocityY = gravity;
+        isGrounded = Physics2D.OverlapBox(groundCheckPoint.position, groundCheckSize, 0f, groundLayer) != null;
     }
-
     void FixedUpdate()
     {
-
-        Vector2 movement = Vector2.zero;
-        if (Keyboard.current.dKey.isPressed) movement.x++;
-        if (Keyboard.current.aKey.isPressed) movement.x--;
-        rigidbody.linearVelocityX = movement.x;
+        
+        if (Keyboard.current.spaceKey.isPressed && isGrounded)
+        {
+            Debug.Log("Jump");
+            rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, jumpPower);
+        }
+        if (Keyboard.current.aKey.isPressed)
+        {
+            rigidbody.linearVelocity = new Vector2(-speed_base, rigidbody.linearVelocity.y);
+        }
+        else if (Keyboard.current.dKey.isPressed)
+        {
+            rigidbody.linearVelocity = new Vector2(speed_base, rigidbody.linearVelocity.y);
+        }
+        else
+        {
+            rigidbody.linearVelocity = new Vector2(0, rigidbody.linearVelocity.y);
+        }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        if (groundCheckPoint != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireCube(groundCheckPoint.position, groundCheckSize);
+        }
     }
 }
