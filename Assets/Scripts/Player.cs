@@ -1,3 +1,4 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,6 +14,12 @@ public class Player : MonoBehaviour
     public Transform groundCheckPoint;
     float verticalVelocity;
     bool isGrounded;
+
+    public LayerMask enemyLayer;
+    public Transform meeleAttackPoint;
+    public float attackRadius = 2f;
+    public float attackCooldownTime = 1f;
+    float timeOdAttack = 0f;
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -20,9 +27,21 @@ public class Player : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapBox(groundCheckPoint.position, groundCheckSize, 0f, groundLayer) != null;
+
+        if (Mouse.current.leftButton.isPressed && timeOdAttack > attackCooldownTime)
+        {
+            timeOdAttack = 0;
+            Collider2D meeleCheck = Physics2D.OverlapCircle(meeleAttackPoint.position, attackRadius, enemyLayer);
+            if (meeleCheck != null)
+            {
+                Debug.Log("trafiony!");
+                // dodac funkcjonalnosc ze przeciwnikowi health pada
+            }
+        }
     }
     void FixedUpdate()
     {
+        timeOdAttack += Time.deltaTime;
         
         if (Keyboard.current.spaceKey.isPressed && isGrounded)
         {
