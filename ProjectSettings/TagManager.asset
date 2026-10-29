@@ -11,8 +11,8 @@ TagManager:
   - podloze
   - Water
   - UI
-  - 
-  - 
+  - enemy
+  - gracz
   - 
   - 
   - 
@@ -43,4 +43,3 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
-  m_MigratedRenderPipelines: []
