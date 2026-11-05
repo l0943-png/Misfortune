@@ -180,7 +180,7 @@ MonoBehaviour:
   groundCheckPoint: {fileID: 3938754243668807126}
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 512
   meeleAttackPoint: {fileID: 2900114662355967488}
   attackRadius: 2
   attackCooldownTime: 1

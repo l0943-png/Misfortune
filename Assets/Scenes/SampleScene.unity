@@ -532,7 +532,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -652,6 +652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gracz
       objectReference: {fileID: 0}
+    - target: {fileID: 2946062615783800184, guid: df007c467bd043a46b613b3a0b0ed201, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4397025970383617182, guid: df007c467bd043a46b613b3a0b0ed201, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -662,7 +666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4397025970383617182, guid: df007c467bd043a46b613b3a0b0ed201, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4397025970383617182, guid: df007c467bd043a46b613b3a0b0ed201, type: 3}
       propertyPath: m_LocalRotation.w
@@ -692,6 +696,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7213952866614183983, guid: df007c467bd043a46b613b3a0b0ed201, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -703,6 +711,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 1986744578}
   - {fileID: 2064419408824757577}
   - {fileID: 572569870}
-  - {fileID: 1986744578}

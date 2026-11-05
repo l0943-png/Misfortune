@@ -1,5 +1,4 @@
 using System;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,6 +19,8 @@ public class Player : MonoBehaviour
     public float attackRadius = 2f;
     public float attackCooldownTime = 1f;
     float timeOdAttack = 0f;
+    int direction = 1;
+
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -60,6 +61,16 @@ public class Player : MonoBehaviour
         {
             rigidbody.linearVelocity = new Vector2(0, rigidbody.linearVelocity.y);
         }
+
+        if (rigidbody.linearVelocity.x > 0)
+        {
+            meeleAttackPoint.localPosition = new Vector2(Mathf.Abs(meeleAttackPoint.localPosition.x), meeleAttackPoint.localPosition.y);
+        }
+        if (rigidbody.linearVelocity.x < 0)
+        {
+            meeleAttackPoint.localPosition = new Vector2(-Mathf.Abs(meeleAttackPoint.localPosition.x), meeleAttackPoint.localPosition.y);
+        }
+
     }
     private void OnDrawGizmosSelected()
     {

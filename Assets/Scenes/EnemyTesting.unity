@@ -286,8 +286,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
   target: {fileID: 1883883424}
+  stop_range: 1
   minimum_range: 5
   maximum_range: 10
+  speed: 5
 --- !u!58 &388664136
 CircleCollider2D:
   m_ObjectHideFlags: 0
