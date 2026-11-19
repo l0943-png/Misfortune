@@ -39,7 +39,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         isGrounded = Physics2D.OverlapBox(groundCheckPoint.position, groundCheckSize, 0f, groundLayer) != null;
-
         if (Mouse.current.leftButton.isPressed && timeOdAttack > attackCooldownTime)
         {
             timeOdAttack = 0;
