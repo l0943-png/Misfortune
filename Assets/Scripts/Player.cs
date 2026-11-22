@@ -20,7 +20,6 @@ public class Player : MonoBehaviour
     public Vector2 groundCheckSize;
     public LayerMask groundLayer;
     public Transform groundCheckPoint;
-    float verticalVelocity;
     bool isGrounded;
 
     public LayerMask enemyLayer;
@@ -49,34 +48,29 @@ public class Player : MonoBehaviour
                 // dodac funkcjonalnosc ze przeciwnikowi health pada
             }
         }
-    }
-    void FixedUpdate()
-    {
-        timeOdAttack += Time.deltaTime;
-        
-        staty.Energia += regeneracjaenegii_co_sek * Time.fixedDeltaTime;
+        staty.Energia = Mathf.Min(staty.Energia + regeneracjaenegii_co_sek * Time.deltaTime, 100);
         if (isGrounded)
         {
-            pozostaly_czas_na_double_jumpa =czas_na_double;
+            pozostaly_czas_na_double_jumpa = czas_na_double;
         }
-        else if (pozostaly_czas_na_double_jumpa-0.02f > 0)
+        else if (pozostaly_czas_na_double_jumpa - 0.02f > 0)
         {
             
-            pozostaly_czas_na_double_jumpa -=0.02f;
+            pozostaly_czas_na_double_jumpa -= 0.02f;
         }
-        if (Keyboard.current.spaceKey.isPressed && ((isGrounded && staty.Energia >= minenergiadoskoku)|| (pozostaly_czas_na_double_jumpa > 0 && !isGrounded && staty.Energia >= minenergiadodoubleskoku)))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            
-            if (!isGrounded && pozostaly_czas_na_double_jumpa < czas_na_double-czas_miedzy_skokami_)
+            Debug.Log("Pr�ba skoku" + isGrounded + pozostaly_czas_na_double_jumpa);
+            if ((isGrounded && staty.Energia >= minenergiadoskoku) || (pozostaly_czas_na_double_jumpa > 0 && !isGrounded && staty.Energia >= minenergiadodoubleskoku))
             {
-                Debug.Log("dobel");
-                pozostaly_czas_na_double_jumpa = 0.0f;
-            }
+                if (!isGrounded)
+                {
+                    Debug.Log("dobel");
+                    pozostaly_czas_na_double_jumpa = 0.0f;
+                    staty.Energia -= strataenergiiskok_i_double;
+                }
             
-            rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, staty.Energia * (maxjumpvalue - minjumpvalue) / 100 + minjumpvalue);
-            if (!isGrounded && pozostaly_czas_na_double_jumpa > 0)
-            {
-                staty.Energia -= strataenergiiskok_i_double;
+                rigidbody.linearVelocity = new Vector2(rigidbody.linearVelocity.x, staty.Energia * (maxjumpvalue - minjumpvalue) / 100 + minjumpvalue);
             }
         }
         if (Keyboard.current.aKey.isPressed)
@@ -93,6 +87,10 @@ public class Player : MonoBehaviour
         {
             rigidbody.linearVelocity = new Vector2(0, rigidbody.linearVelocity.y);
         }
+    }
+    void FixedUpdate()
+    {
+        timeOdAttack += Time.deltaTime;
 
         if (rigidbody.linearVelocity.x > 0)
         {
