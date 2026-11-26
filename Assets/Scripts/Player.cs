@@ -45,7 +45,8 @@ public class Player : MonoBehaviour
             if (meeleCheck != null)
             {
                 Debug.Log("trafiony!");
-                // dodac funkcjonalnosc ze przeciwnikowi health pada
+                PrzeciwnikStaty enemy_stat = meeleCheck.GetComponent<PrzeciwnikStaty>();
+                enemy_stat.Damage(10f);
             }
         }
         staty.Energia = Mathf.Min(staty.Energia + regeneracjaenegii_co_sek * Time.deltaTime, 100);
@@ -76,12 +77,12 @@ public class Player : MonoBehaviour
         if (Keyboard.current.aKey.isPressed)
         {
             rigidbody.linearVelocity = new Vector2(-speed_base * (staty.Energia * 0.25f / 100 + minpredkoscwspolczynnik), rigidbody.linearVelocity.y);
-            staty.Energia -= ruch_strataenegi_na_sek * Time.fixedDeltaTime;
+            staty.Energia -= ruch_strataenegi_na_sek * Time.deltaTime;
         }
         else if (Keyboard.current.dKey.isPressed)
         {
             rigidbody.linearVelocity = new Vector2(speed_base * (staty.Energia * 0.25f / 100 + minpredkoscwspolczynnik), rigidbody.linearVelocity.y);
-            staty.Energia -= ruch_strataenegi_na_sek * Time.fixedDeltaTime;
+            staty.Energia -= ruch_strataenegi_na_sek * Time.deltaTime;
         }
         else
         {
@@ -90,7 +91,7 @@ public class Player : MonoBehaviour
     }
     void FixedUpdate()
     {
-        timeOdAttack += Time.deltaTime;
+        timeOdAttack += Time.fixedDeltaTime;
 
         if (rigidbody.linearVelocity.x > 0)
         {
