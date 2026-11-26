@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 86dfa50b96235164cb82988c47bcd2b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5627674140085992238
+    second: przeszkody3_0
+  - first:
+      213: 8918877176323939722
+    second: przeszkody3_1
+  - first:
+      213: -7674526035662435772
+    second: przeszkody3_2
+  - first:
+      213: 4007097600204171368
+    second: przeszkody3_3
+  - first:
+      213: -4385080744327980541
+    second: przeszkody3_4
+  - first:
+      213: 5043519223545007065
+    second: przeszkody3_5
+  - first:
+      213: -4924175744688529198
+    second: przeszkody3_6
+  - first:
+      213: -2783999404997860140
+    second: przeszkody3_7
+  - first:
+      213: 3551346471939204547
+    second: przeszkody3_8
+  - first:
+      213: -8952456836609487959
+    second: przeszkody3_9
+  - first:
+      213: -6115825993872410497
+    second: przeszkody3_10
+  - first:
+      213: -4608785443305883191
+    second: przeszkody3_11
+  - first:
+      213: -7459439704259864198
+    second: przeszkody3_12
+  - first:
+      213: -5614719154434093868
+    second: przeszkody3_13
+  - first:
+      213: 5762459554331346980
+    second: przeszkody3_14
+  - first:
+      213: 7705183135457141196
+    second: przeszkody3_15
+  - first:
+      213: -5266611761340060906
+    second: przeszkody3_16
+  - first:
+      213: 5471461126380850493
+    second: przeszkody3_17
+  - first:
+      213: -8065206833609510110
+    second: przeszkody3_18
+  - first:
+      213: -7093509878997913917
+    second: przeszkody3_19
+  - first:
+      213: -8387932289530733898
+    second: przeszkody3_20
+  - first:
+      213: 4108976399924367712
+    second: przeszkody3_21
+  - first:
+      213: 5875320360611601879
+    second: przeszkody3_22
+  - first:
+      213: -7628894969651575532
+    second: przeszkody3_23
+  - first:
+      213: -7763853895260850555
+    second: przeszkody3_24
+  - first:
+      213: -1811853902672646970
+    second: przeszkody3_25
+  - first:
+      213: -6483314709532871578
+    second: przeszkody3_26
+  - first:
+      213: -7360054611327770903
+    second: przeszkody3_27
+  - first:
+      213: -3677962363610487305
+    second: przeszkody3_28
+  - first:
+      213: -4570501887410387133
+    second: przeszkody3_29
+  - first:
+      213: -1504511838995875932
+    second: przeszkody3_30
+  - first:
+      213: 4027565937601353074
+    second: przeszkody3_31
+  - first:
+      213: -8055812850885601714
+    second: przeszkody3_32
+  - first:
+      213: 7858349690901467083
+    second: przeszkody3_33
+  - first:
+      213: 7394606086553707462
+    second: przeszkody3_34
+  - first:
+      213: 640833371833046599
+    second: przeszkody3_35
+  - first:
+      213: -7531122036825010583
+    second: przeszkody3_36
+  - first:
+      213: -3303595997831315127
+    second: przeszkody3_37
+  - first:
+      213: 7595238977864576013
+    second: przeszkody3_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: przeszkody3_0
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 917
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4c580bf2c76e1b0800000000000000
+      internalID: -5627674140085992238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_1
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 960
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d9022a98736cb70800000000000000
+      internalID: 8918877176323939722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_2
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 917
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a8ad06b3b9e7590800000000000000
+      internalID: -7674526035662435772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_3
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 960
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8686d7079021c9730800000000000000
+      internalID: 4007097600204171368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_4
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 918
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30adce2db401523c0800000000000000
+      internalID: -4385080744327980541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_5
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 918
+        width: 9
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db0149130e2ef540800000000000000
+      internalID: 5043519223545007065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_6
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 918
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0ee36ef30d9abb0800000000000000
+      internalID: -4924175744688529198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_7
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 960
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4243a9a4f3d59d0800000000000000
+      internalID: -2783999404997860140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_8
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 918
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5e546eccae84130800000000000000
+      internalID: 3551346471939204547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_9
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 918
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abcfd270fb72c380800000000000000
+      internalID: -8952456836609487959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 918
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78722f59a8302ba0800000000000000
+      internalID: -6115825993872410497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 917
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9f2c5ce0e4a00c0800000000000000
+      internalID: -4608785443305883191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 918
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79552c5c1fba7890800000000000000
+      internalID: -7459439704259864198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_13
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 918
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dccf565da28412b0800000000000000
+      internalID: -5614719154434093868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_14
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 917
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428c9701f6e58ff40800000000000000
+      internalID: 5762459554331346980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_15
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 918
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1e046ec3f4eea60800000000000000
+      internalID: 7705183135457141196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_16
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 917
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b6e6bb18c39e6b0800000000000000
+      internalID: -5266611761340060906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_17
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 918
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d0a48c7e88eeb40800000000000000
+      internalID: 5471461126380850493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_18
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 918
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223f6aabd11a21090800000000000000
+      internalID: -8065206833609510110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_19
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 917
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ceea9b195ace8d90800000000000000
+      internalID: -7093509878997913917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_20
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 918
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6badd7a1604189b80800000000000000
+      internalID: -8387932289530733898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_21
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 917
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06194f3f344060930800000000000000
+      internalID: 4108976399924367712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_22
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 870
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dddfdb3db4598150800000000000000
+      internalID: 5875320360611601879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_23
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 870
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4154729d178b02690800000000000000
+      internalID: -7628894969651575532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_24
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 870
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586b1f45400414490800000000000000
+      internalID: -7763853895260850555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_25
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 828
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccaa42a9700bd6e0800000000000000
+      internalID: -1811853902672646970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_26
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 827
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6647a3b2f93a606a0800000000000000
+      internalID: -6483314709532871578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_27
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 827
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee15548355dbd990800000000000000
+      internalID: -7360054611327770903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_28
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 828
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5adbb87b045fcc0800000000000000
+      internalID: -3677962363610487305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_29
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 828
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347c6abbfb05290c0800000000000000
+      internalID: -4570501887410387133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 827
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7f7442476ee1be0800000000000000
+      internalID: -1504511838995875932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_31
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 827
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275113c91e9c4e730800000000000000
+      internalID: 4027565937601353074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_32
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 828
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46dfe5c4e0043090800000000000000
+      internalID: -8055812850885601714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_33
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 827
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf8bf698677e0d60800000000000000
+      internalID: 7858349690901467083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_34
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 828
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3a9f2be0bee9660800000000000000
+      internalID: 7394606086553707462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_35
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 828
+        width: 9
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74613507e82b4e800800000000000000
+      internalID: 640833371833046599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_36
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 579
+        width: 190
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ecdeab8641c7790800000000000000
+      internalID: -7531122036825010583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_37
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 586
+        width: 144
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941ccd371f44722d0800000000000000
+      internalID: -3303595997831315127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: przeszkody3_38
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 563
+        width: 123
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ca1dbeb95b76960800000000000000
+      internalID: 7595238977864576013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      przeszkody3_0: -5627674140085992238
+      przeszkody3_1: 8918877176323939722
+      przeszkody3_10: -6115825993872410497
+      przeszkody3_11: -4608785443305883191
+      przeszkody3_12: -7459439704259864198
+      przeszkody3_13: -5614719154434093868
+      przeszkody3_14: 5762459554331346980
+      przeszkody3_15: 7705183135457141196
+      przeszkody3_16: -5266611761340060906
+      przeszkody3_17: 5471461126380850493
+      przeszkody3_18: -8065206833609510110
+      przeszkody3_19: -7093509878997913917
+      przeszkody3_2: -7674526035662435772
+      przeszkody3_20: -8387932289530733898
+      przeszkody3_21: 4108976399924367712
+      przeszkody3_22: 5875320360611601879
+      przeszkody3_23: -7628894969651575532
+      przeszkody3_24: -7763853895260850555
+      przeszkody3_25: -1811853902672646970
+      przeszkody3_26: -6483314709532871578
+      przeszkody3_27: -7360054611327770903
+      przeszkody3_28: -3677962363610487305
+      przeszkody3_29: -4570501887410387133
+      przeszkody3_3: 4007097600204171368
+      przeszkody3_30: -1504511838995875932
+      przeszkody3_31: 4027565937601353074
+      przeszkody3_32: -8055812850885601714
+      przeszkody3_33: 7858349690901467083
+      przeszkody3_34: 7394606086553707462
+      przeszkody3_35: 640833371833046599
+      przeszkody3_36: -7531122036825010583
+      przeszkody3_37: -3303595997831315127
+      przeszkody3_38: 7595238977864576013
+      przeszkody3_4: -4385080744327980541
+      przeszkody3_5: 5043519223545007065
+      przeszkody3_6: -4924175744688529198
+      przeszkody3_7: -2783999404997860140
+      przeszkody3_8: 3551346471939204547
+      przeszkody3_9: -8952456836609487959
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
