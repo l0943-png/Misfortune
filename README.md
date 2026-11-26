@@ -1,1 +1,1 @@
-płakał
+niemiec płakał jak sprzedawał
